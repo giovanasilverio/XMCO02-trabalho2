@@ -25,6 +25,9 @@ def ler_instancia(caminho):
         for linha in arquivo:
             valores.extend(linha.split('#', 1)[0].split())
 
+    if not valores:
+        raise ValueError(f'O arquivo {caminho.name} está vazio.')
+
     try:
         n = int(valores[0])
     except ValueError as erro:
@@ -89,10 +92,8 @@ def ler_instancia(caminho):
 
 
 if __name__ == '__main__':
-    caminho = "dummy_instances/dummy/toy2.txt"  
+    caminho =  "dummy_instances/dummy/toy1.txt"
     dados = ler_instancia(caminho)
-
-    print(f"Número de nós: {dados['n']}")
-    print(f"Matriz de demandas: {dados['n']} x {dados['n']}")
-    print(f"Matriz de distâncias: {dados['n']} x {dados['n']}")
-    print(f"Demanda total: {sum(map(sum, dados['demandas'])):.6f}")
+    print('Número de nós:', dados['n'])
+    print('Demanda total:', sum(map(sum, dados['demandas'])))
+    print('Capacidades:', dados['capacidades'])

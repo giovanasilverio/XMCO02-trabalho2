@@ -1,0 +1,175 @@
+=== r1_a06_arquivo: p=2, r=1, alpha=0.6 ===
+Instância: toy1.txt; n=3; original=3
+Status: Optimal; solução: Optimal Solution Found
+Tempo: 0.039 segundos
+Custo: 6.40000000
+Hubs: [1, 2]
+Ótimo comprovado: True
+Solução válida: True
+
+Matriz z (* = alocação sem fluxo acima da tolerância):
+nó            1         2
+   0         1         0 
+   1         1         0 
+   2         0         1 
+
+Alocação efetivamente usada por frações > 1e-6:
+nó            1         2
+   0         1         0 
+   1         1         0 
+   2         0         1 
+A diagonal efetiva só é marcada quando usada pelo fluxo. Os hubs são identificados separadamente.
+
+Cargas: coleta + entrada de transferência. Quando k=l, o fluxo é contado uma única vez.
+Hub 1: carga=6.00000000; B=100.00000000; utilização=6.00%
+Hub 2: carga=4.00000000; B=100.00000000; utilização=4.00%
+
+Rotas de demandas positivas (i -> k -> l -> j; fração x):
+w[0,1]=1.00000000: 0->1->1->1: x=1.00000000
+w[0,2]=1.00000000: 0->1->2->2: x=1.00000000
+w[1,0]=1.00000000: 1->1->1->0: x=1.00000000
+w[1,2]=1.00000000: 1->1->2->2: x=1.00000000
+w[2,0]=1.00000000: 2->2->1->0: x=1.00000000
+w[2,1]=1.00000000: 2->2->1->1: x=1.00000000
+Pares com fluxo dividido: 0 de 6
+
+=== r2_a06_arquivo: p=2, r=2, alpha=0.6 ===
+Instância: toy1.txt; n=3; original=3
+Status: Optimal; solução: Optimal Solution Found
+Tempo: 0.034 segundos
+Custo: 6.40000000
+Hubs: [1, 2]
+Ótimo comprovado: True
+Solução válida: True
+
+Matriz z (* = alocação sem fluxo acima da tolerância):
+nó            1         2
+   0         1         0 
+   1         1         0 
+   2         0         1 
+
+Alocação efetivamente usada por frações > 1e-6:
+nó            1         2
+   0         1         0 
+   1         1         0 
+   2         0         1 
+A diagonal efetiva só é marcada quando usada pelo fluxo. Os hubs são identificados separadamente.
+
+Cargas: coleta + entrada de transferência. Quando k=l, o fluxo é contado uma única vez.
+Hub 1: carga=6.00000000; B=100.00000000; utilização=6.00%
+Hub 2: carga=4.00000000; B=100.00000000; utilização=4.00%
+
+Rotas de demandas positivas (i -> k -> l -> j; fração x):
+w[0,1]=1.00000000: 0->1->1->1: x=1.00000000
+w[0,2]=1.00000000: 0->1->2->2: x=1.00000000
+w[1,0]=1.00000000: 1->1->1->0: x=1.00000000
+w[1,2]=1.00000000: 1->1->2->2: x=1.00000000
+w[2,0]=1.00000000: 2->2->1->0: x=1.00000000
+w[2,1]=1.00000000: 2->2->1->1: x=1.00000000
+Pares com fluxo dividido: 0 de 6
+
+=== r2_a02_arquivo: p=2, r=2, alpha=0.2 ===
+Instância: toy1.txt; n=3; original=3
+Status: Optimal; solução: Optimal Solution Found
+Tempo: 0.029 segundos
+Custo: 4.80000000
+Hubs: [1, 2]
+Ótimo comprovado: True
+Solução válida: True
+
+Matriz z (* = alocação sem fluxo acima da tolerância):
+nó            1         2
+   0         1         0 
+   1         1         0 
+   2         0         1 
+
+Alocação efetivamente usada por frações > 1e-6:
+nó            1         2
+   0         1         0 
+   1         1         0 
+   2         0         1 
+A diagonal efetiva só é marcada quando usada pelo fluxo. Os hubs são identificados separadamente.
+
+Cargas: coleta + entrada de transferência. Quando k=l, o fluxo é contado uma única vez.
+Hub 1: carga=6.00000000; B=100.00000000; utilização=6.00%
+Hub 2: carga=4.00000000; B=100.00000000; utilização=4.00%
+
+Rotas de demandas positivas (i -> k -> l -> j; fração x):
+w[0,1]=1.00000000: 0->1->1->1: x=1.00000000
+w[0,2]=1.00000000: 0->1->2->2: x=1.00000000
+w[1,0]=1.00000000: 1->1->1->0: x=1.00000000
+w[1,2]=1.00000000: 1->1->2->2: x=1.00000000
+w[2,0]=1.00000000: 2->2->1->0: x=1.00000000
+w[2,1]=1.00000000: 2->2->1->1: x=1.00000000
+Pares com fluxo dividido: 0 de 6
+
+=== r2_a06_folga12: p=2, r=2, alpha=0.6 ===
+Instância: toy1.txt; n=3; original=3
+Status: Optimal; solução: Optimal Solution Found
+Tempo: 0.036 segundos
+Custo: 7.04000000
+Hubs: [0, 2]
+Ótimo comprovado: True
+Solução válida: True
+
+Matriz z (* = alocação sem fluxo acima da tolerância):
+nó            0         2
+   0         1         1 
+   1         1         1 
+   2         1         1 
+
+Alocação efetivamente usada por frações > 1e-6:
+nó            0         2
+   0         1         1 
+   1         1         1 
+   2         1         1 
+A diagonal efetiva só é marcada quando usada pelo fluxo. Os hubs são identificados separadamente.
+
+Cargas: coleta + entrada de transferência. Quando k=l, o fluxo é contado uma única vez.
+Hub 0: carga=3.60000000; B=3.60000000; utilização=100.00%
+Hub 2: carga=3.60000000; B=3.60000000; utilização=100.00%
+
+Rotas de demandas positivas (i -> k -> l -> j; fração x):
+w[0,1]=1.00000000: 0->0->0->1: x=1.00000000
+w[0,2]=1.00000000: 0->0->2->2: x=1.00000000
+w[1,0]=1.00000000: 1->0->0->0: x=1.00000000
+w[1,2]=1.00000000: 1->2->2->2: x=1.00000000
+w[2,0]=1.00000000: 2->0->0->0: x=0.40000000 | 2->2->0->0: x=0.20000000 | 2->2->2->0: x=0.40000000
+w[2,1]=1.00000000: 2->2->2->1: x=1.00000000
+Pares com fluxo dividido: 1 de 6
+
+=== r2_a06_livre: p=2, r=2, alpha=0.6 ===
+Instância: toy1.txt; n=3; original=3
+Status: Optimal; solução: Optimal Solution Found
+Tempo: 0.029 segundos
+Custo: 6.40000000
+Hubs: [1, 2]
+Ótimo comprovado: True
+Solução válida: True
+
+Matriz z (* = alocação sem fluxo acima da tolerância):
+nó            1         2
+   0         1         0 
+   1         1         0 
+   2         0         1 
+
+Alocação efetivamente usada por frações > 1e-6:
+nó            1         2
+   0         1         0 
+   1         1         0 
+   2         0         1 
+A diagonal efetiva só é marcada quando usada pelo fluxo. Os hubs são identificados separadamente.
+
+Cargas: coleta + entrada de transferência. Quando k=l, o fluxo é contado uma única vez.
+Hub 1: carga=6.00000000; sem limite
+Hub 2: carga=4.00000000; sem limite
+
+Rotas de demandas positivas (i -> k -> l -> j; fração x):
+w[0,1]=1.00000000: 0->1->1->1: x=1.00000000
+w[0,2]=1.00000000: 0->1->2->2: x=1.00000000
+w[1,0]=1.00000000: 1->1->1->0: x=1.00000000
+w[1,2]=1.00000000: 1->1->2->2: x=1.00000000
+w[2,0]=1.00000000: 2->2->1->0: x=1.00000000
+w[2,1]=1.00000000: 2->2->1->1: x=1.00000000
+Pares com fluxo dividido: 0 de 6
+
