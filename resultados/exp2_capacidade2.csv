@@ -1,0 +1,9 @@
+instancia,n_original,n,p,r,alpha,cenario_capacidade,capacidades,status,sol_status,tem_solucao,otimo,valida,custo,hubs,cargas_hubs,utilizacao_hubs_pct,utilizacao_max_pct,hubs_com_capacidade_ativa,nos_multi_hub,tempo_s,erros_validacao
+toy1.txt,3,3,2,2,0.6,sem_capacidade,,Optimal,Optimal Solution Found,True,True,True,6.4,1 2,1:6.00000000; 2:4.00000000,,,,0,0.031275900000309775,
+toy1.txt,3,3,2,2,0.6,capacidades_arquivo,"[100.0, 100.0, 100.0]",Optimal,Optimal Solution Found,True,True,True,6.4,1 2,1:6.00000000; 2:4.00000000,1:6.00%; 2:4.00%,6.0,,0,0.03302219999977751,
+toy1.txt,3,3,2,2,0.6,folga_2.0,"[6.0, 6.0, 6.0]",Optimal,Optimal Solution Found,True,True,True,6.4,0 1,0:4.00000000; 1:6.00000000,0:66.67%; 1:100.00%,100.0,1,0,0.03205770000022312,
+toy1.txt,3,3,2,2,0.6,folga_1.5,"[4.5, 4.5, 4.5]",Optimal,Optimal Solution Found,True,True,True,6.4,0 2,0:4.00000000; 2:4.00000000,0:88.89%; 2:88.89%,88.88888888888889,,1,0.03824549999990268,
+toy1.txt,3,3,2,2,0.6,folga_1.2,"[3.5999999999999996, 3.5999999999999996, 3.5999999999999996]",Optimal,Optimal Solution Found,True,True,True,7.04,0 2,0:3.60000000; 2:3.60000000,0:100.00%; 2:100.00%,100.00000000000001,0 2,1,0.04045510000014474,
+toy1.txt,3,3,2,2,0.6,folga_1.0,"[3.0, 3.0, 3.0]",Optimal,Optimal Solution Found,True,True,True,8.0,1 2,1:3.00000000; 2:3.00000000,1:100.00%; 2:100.00%,100.0,1 2,1,0.03345610000042143,
+toy1.txt,3,3,2,2,0.6,folga_0.8,"[2.4000000000000004, 2.4000000000000004, 2.4000000000000004]",Infeasible,No Solution Exists,False,False,,,,,,,,,0.03328100000044287,
+toy1.txt,3,3,2,2,0.6,folga_0.6,"[1.7999999999999998, 1.7999999999999998, 1.7999999999999998]",Infeasible,No Solution Exists,False,False,,,,,,,,,0.0334962999995696,
