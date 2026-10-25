@@ -13,6 +13,8 @@ Execute os arquivos:
 ```bash
 python leitura.py
 python crap_hmp.py
+python exp1_pr.py
+python exp2_capacidade.py
 python exp3_alpha.py
 python exp4_estrutura.py
 ```
@@ -27,6 +29,8 @@ na linha de comando.
 - leitura.py: n, demandas, distâncias e capacidades opcionais; comentários #.
 - validacao.py: verifica valores originais, alocações, fluxos, capacidades e custo.
 - crap_hmp.py: adaptador de leitura, modelo, solução e exportação .dot.
+- exp1_pr2.py: compara valores de r para diferentes p e cenarios de capacidade; CSV incremental e grafos .dot.
+- exp2_capacidade2.py: compara folgas de capacidade; CSV incremental em exp2_capacidade2.csv com cargas e utilizacao por hub, alem de grafos .dot.
 - exp3_alpha.py: comparação de alpha com capacidades do arquivo, capacidades
   uniformes e referência explicitamente sem capacidade; CSV incremental.
 - exp4_estrutura.py: alocações, cargas, rotas e grafos; relatório incremental.
