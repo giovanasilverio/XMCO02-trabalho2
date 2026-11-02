@@ -12,13 +12,13 @@ from crap_hmp import (
 from exp3_alpha import configurar_capacidade
 
 
-ARQUIVO = "dummy_instances/dummy/toy1.txt"
-N_SUB = None
+ARQUIVO = "AP40.txt"
+N_SUB = 12
 
 # Compara alocaçao simples (r=1), intermediaria e multipla (r=p).
-P_VALORES = [2, 3]
+P_VALORES = [2, 3, 4]
 ALPHAS = [0.6]
-FOLGAS = [None, "arquivo", 1.2, 2.0]
+FOLGAS = [None, 1.2, 2.0]
 TEMPO_MAX = 120
 SAIDA = "resultados"
 
