@@ -1,0 +1,29 @@
+digraph G {
+  node [shape=circle];
+  0;
+  1;
+  2 [style=filled, fillcolor=gray];
+  3;
+  4;
+  5;
+  6;
+  7;
+  8;
+  9;
+  10;
+  11 [style=filled, fillcolor=gray];
+  0 -> 2 [style=dashed, color=gray, dir=none];
+  1 -> 2 [style=dashed, color=gray, dir=none];
+  3 -> 2 [style=dashed, color=gray, dir=none];
+  4 -> 2 [style=dashed, color=gray, dir=none];
+  4 -> 11 [style=dashed, color=gray, dir=none];
+  5 -> 11 [style=dashed, color=gray, dir=none];
+  6 -> 11 [style=dashed, color=gray, dir=none];
+  7 -> 11 [style=dashed, color=gray, dir=none];
+  8 -> 2 [style=dashed, color=gray, dir=none];
+  8 -> 11 [style=dashed, color=gray, dir=none];
+  9 -> 11 [style=dashed, color=gray, dir=none];
+  10 -> 11 [style=dashed, color=gray, dir=none];
+  2 -> 11 [label="63.8038", penwidth=2];
+  11 -> 2 [label="73.7799", penwidth=2];
+}

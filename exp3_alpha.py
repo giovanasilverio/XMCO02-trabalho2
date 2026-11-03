@@ -11,19 +11,25 @@ from crap_hmp import (
     exportar_dot
 )
 
-ARQUIVO = "dummy_instances/dummy/toy1.txt"
-N_SUB = None
 
 ALPHAS = [0.2, 0.4, 0.6, 0.8, 1.0]
-CONFIGS = [(2, 1), (2, 2)]  # (p, r)
+FOLGAS = [None, 2.0]
 
-# None: comparação sem capacidade.
-# "arquivo": capacidades lidas da instância.
-# Número: capacidade uniforme = folga * demanda_total / p.
-FOLGAS = [None, "arquivo", 1.2, 2.0]
+#ARQUIVO = "CAB25.txt"
+ARQUIVO = "AP40.txt"
 
+#N_SUB = 10
+N_SUB = 12
+
+#CONFIGS = [(3, 1), (3, 2), (3, 3)]   # (p, r)
+CONFIGS = [(2, 2), (3, 1), (3, 2), (3, 3), (4, 2)]   # (p, r)
+
+
+#TEMPO_MAX = 60
 TEMPO_MAX = 120
+
 SAIDA = "resultados"
+
 
 
 def decompor_custo(inst, res, alpha, lam=1.0, delta=1.0):

@@ -13,8 +13,8 @@ from exp3_alpha import configurar_capacidade
 
 
 
-ARQUIVO = "dummy_instances/dummy/toy1.txt"
-N_SUB = None
+ARQUIVO = "AP40.txt"
+N_SUB = 12
 
 TEMPO_MAX = 120
 SAIDA = "resultados"
@@ -24,11 +24,25 @@ SAIDA = "resultados"
 # "arquivo": capacidades originais.
 # Número: fator de folga para capacidade uniforme.
 CASOS = [
-    ("r1_a06_arquivo", 2, 1, 0.6, "arquivo"),
-    ("r2_a06_arquivo", 2, 2, 0.6, "arquivo"),
-    ("r2_a02_arquivo", 2, 2, 0.2, "arquivo"),
-    ("r2_a06_folga12", 2, 2, 0.6, 1.2),
-    ("r2_a06_livre",   2, 2, 0.6, None)
+    #("r1_a06_arquivo", 2, 1, 0.6, "arquivo"),
+    #("r2_a06_arquivo", 2, 2, 0.6, "arquivo"),
+    #("r2_a02_arquivo", 2, 2, 0.2, "arquivo"),
+    #("r2_a06_folga12", 2, 2, 0.6, 1.2),
+    #("r2_a06_livre",   2, 2, 0.6, None)
+
+    #("r1_a06_livre",   3, 1, 0.6, None),
+    #("r3_a06_livre",   3, 3, 0.6, None),
+    #("r2_a02_livre",   3, 2, 0.2, None),
+    #("r2_a10_livre",   3, 2, 1.0, None),
+    #("r2_a06_folga12", 3, 2, 0.6, 1.2),
+    #("r2_a06_livre",   3, 2, 0.6, None),
+
+    ("r1_a06_livre",   3, 1, 0.6, None),
+    ("r3_a06_livre",   3, 3, 0.6, None),
+    ("r2_a06_livre",   3, 2, 0.6, None),
+    ("r2_a06_folga12", 3, 2, 0.6, 1.2),
+    ("r2_a02_livre",   3, 2, 0.2, None),
+    ("r2_a10_livre",   3, 2, 1.0, None),
 ]
 
 
